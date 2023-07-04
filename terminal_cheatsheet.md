@@ -8,9 +8,9 @@ cd [Destination]
 | Destination | Syntax |
 | ----------- | ----------- |
 | Home | [leave blank] |
-| Specific directory e.g documents| ~/Documents |
-| Parent directory| ..|
-| Current directory| . |
+| Specific directory e.g documents| `~/Documents` |
+| Parent directory| `..`|
+| Current directory| `.` |
 
 ### ***File Modification***
 
@@ -19,18 +19,18 @@ cd [Destination]
 ```
 | Command | Syntax | Flags |
 | ----------- | ----------- | --------|
-| Create file | touch |
-| Open file or directory | open |
-| Remove file | rm | -r (recursively) -rf (+forcefully)  |
+| Create file | `touch` |
+| Open file or directory | `open` |
+| Remove file | `rm` | `-r` (recursively) `-rf` (+forcefully)  |
 
 *Etiquette*
 
 | Naming Style | Example |
 |---|---|
-|snake | my_directory|
-|camel | myDirectory |
-|passcode| MyDirectory|
-|kebab (taboo)| my-directory
+|snake | `my_directory`|
+|camel | `myDirectory` |
+|passcode| `MyDirectory`|
+|kebab (taboo)| `my-directory`|
 
 ### ***Moving and Copying Files***
 
@@ -43,8 +43,8 @@ cp <filename> <directory/new_filename>
 
 | Command | Syntax | Flags |
 | ----------- | ----------- |----------- |
-| List files | ls | -a (all hidden) -l (detailed?)|
-| Clear terminal | clear | |
+| List files | `ls` | `-a` (all hidden) `-l` (detailed?)|
+| Clear terminal | `clear` | |
 
 
 ## **Github Commands**
