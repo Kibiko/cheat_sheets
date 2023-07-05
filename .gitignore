@@ -1,0 +1,11 @@
+# ignore all data files
+*.dat
+
+# but do track a specific data file
+!gasdens_100.dat
+
+# ignore all files in any directory named random
+random/
+
+# ignore all data files in certain directory and its subdirectories
+output/**/*.dat
