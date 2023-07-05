@@ -67,6 +67,7 @@ git commit -m "[enter message]"
 git status
 git log
 ```
+Flag for log: --raw  (can see which files were added or modified)
 
 ### ***Setting Up Remote***
 ```
